@@ -67,7 +67,6 @@ const NavModule = () => {
             <LogoStyles>
               <Link to="/">
                 {title}
-                <span>.</span>
               </Link>
             </LogoStyles>
           )}
@@ -90,7 +89,6 @@ const NavModule = () => {
                 activeClassName="menu__item--active"
               >
                 {item.text}
-                <span>.</span>
               </Link>
             </li>
           ))}
@@ -101,7 +99,7 @@ const NavModule = () => {
                 onClick={toggleSubNav}
                 onKeyDown={toggleSubNav}
               >
-                Products<span>.</span>
+                Portfolio
                 <Chevron />
               </button>
 
@@ -116,7 +114,7 @@ const NavModule = () => {
                     onKeyDown={toggleNav}
                     to="/products"
                   >
-                    All Products
+                    All Projects
                   </Link>
                 </li>
                 <hr />

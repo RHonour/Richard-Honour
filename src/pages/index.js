@@ -11,11 +11,11 @@ import LatestPosts from "../components/Post/LatestPosts"
 const Index = () => {
   return (
     <>
-      <Seo title="Home" />
+      <Seo title="Richard Honour" />
       <Layout>
         <BannerModule
-          title="Richard Honour"
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+          title="Data Engineer for hire"
+          subTitle="With a stack including Python, SQL, PostgreSQL, Spark, Hadoop, Bash, Streamlit and Notion."
         />
         <BasicTextModule
           title="A super-fast theme that is easy to get started, using the power of
@@ -24,17 +24,17 @@ const Index = () => {
             speed and mobile devices. Giving users an excellent experience on
             any device. Future-proofing your product."
           link="/products"
-          linkText="View Products"
+          linkText="View Portfolio"
         />
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
+          title="Featured Projects."
           introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
         />
         <LatestPosts
-          title="The Latest from Barcadia"
+          title="Latest Posts"
           introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
         />
       </Layout>

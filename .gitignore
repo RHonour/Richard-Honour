@@ -72,3 +72,6 @@ yarn-error.log
 
 # development file
 .env.development
+
+# contentful config file
+website-config.json
